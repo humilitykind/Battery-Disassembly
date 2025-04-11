@@ -40,7 +40,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 print(device)
 
-model = DetectMultiBackend(str(Path(r"D:\prof-project\best.pt")), device=device)  # Ensure 'best.pt' is your trained model
+model = DetectMultiBackend(str(Path(r"D:\prof-project\best_weights.pt")), device=device)  # Ensure 'best.pt' is your trained model
 model.eval()  # Set to evaluation mode
 
 # Define the class index for screws (update this based on your dataset)
