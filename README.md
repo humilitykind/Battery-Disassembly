@@ -8,6 +8,9 @@ Pretrained yolov5 with screw data annotated and hosted on roboflow.
 
 Saved the weights as best_weights.pt
 
+Regards
+Arshit
+
 
 
 
