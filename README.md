@@ -2,11 +2,18 @@
 
 Automated Battery Disassembly using Computer Vision and Task planning.
 
-Starts off with screw detection using a pretrained yolov5 on frame-by-frame using the Intel RealSense D435i camera.
+We first Pretrained yolov5 with custom annotated screw data of 4 classes and hosted it on roboflow.
 
-Pretrained yolov5 with screw data annotated and hosted on roboflow.
+As pretraining was done on colab file, we saved the weights as best_weights.pt and transfered it to local machine for having access to USB 3.2 ports.
 
-Saved the weights as best_weights.pt
+Then, screw detection was done using a pretrained yolov5 on static images.
+
+Next, we caliberated the Intel RealSense D435i camera and produced frame-by-frame inference.
+
+
+
+
+
 
 Regards
 Arshit
