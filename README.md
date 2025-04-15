@@ -11,6 +11,14 @@ Then, screw detection was done using a pretrained yolov5 on static images.
 Next, we caliberated the Intel RealSense D435i camera and produced frame-by-frame inference.
 
 
+Next Steps:
+Introducing depth, and relative positioning functionalities.
+
+Having synergy with Hardware , for real time use-cases.
+
+Integrating results with task planning algorithms.
+
+
 
 
 
