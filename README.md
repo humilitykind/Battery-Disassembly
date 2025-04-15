@@ -13,12 +13,6 @@
 - Ensure synergy with hardware for real-time use cases.
 - Integrate results with task planning algorithms.
 
-- Introduce depth and relative positioning functionalities.
-- Ensure synergy with hardware for real-time use cases.
-- Integrate results with task planning algorithms.
-
-
-
 
 
 
