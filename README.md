@@ -12,12 +12,14 @@
 - Utilized Google Colab T4 GPU for ~45 minutes to address the requirement of a large GPU.
 - Stored pretrained model weights locally to overcome the challenge of accessing the local USB from Colab.
 - Shifted from Python 3.13 to 3.11 as Pyrealsense2, the Python wrapper for Intel Realsense SDK, supports only up to Python 3.11.
+- The camera requires USB 3.2 connection to facilitate speedy data tranfer. A lower version will not work as the camera detects depth in-house and sends back info at around ~10 Gbps.
 
 
 
 ### **Next Steps**
 
 - Introduce depth and relative positioning functionalities.
+- Attempt to implement identification of sizes of parts.
 - Ensure synergy with hardware for real-time use cases.
 - Integrate results with task planning algorithms.
 
