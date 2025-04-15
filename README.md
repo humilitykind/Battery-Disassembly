@@ -7,7 +7,15 @@
 - Calibrated the Intel RealSense D435i camera and used for real-time frame-by-frame inference.
 
 
-### **_Next Steps_**
+### Some critical challenges overcome
+- Built a custom dataset by combining multiple sources on Roboflow due to the absence of a ready-reckoner dataset.
+- Utilized Google Colab T4 GPU for ~45 minutes to address the requirement of a large GPU.
+- Stored pretrained model weights locally to overcome the challenge of accessing the local USB from Colab.
+- Shifted from Python 3.13 to 3.11 as Pyrealsense2, the Python wrapper for Intel Realsense SDK, supports only up to Python 3.11.
+
+
+
+### **Next Steps**
 
 - Introduce depth and relative positioning functionalities.
 - Ensure synergy with hardware for real-time use cases.
