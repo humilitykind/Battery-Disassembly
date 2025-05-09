@@ -5,6 +5,9 @@
 - Saved the weights as `best_weights.pt` after pretraining on Colab and transferred them to a local machine for USB 3.2 port access.
 - Performed screw detection using the pretrained YOLOv5 on static images.
 - Calibrated the Intel RealSense D435i camera and used for real-time frame-by-frame inference.
+- Classification of screws is done into three classes slotted , hexa and cross.
+- Added functionality for detecting nuts.
+  
 
 
 ### Some critical challenges overcome
